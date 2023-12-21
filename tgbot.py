@@ -1,13 +1,7 @@
-
-
-
 import random
 import telebot
 
-
-
 bot_token = '6774828149:AAGv0BOFdV4-5zgKhAfTIzyvxzysfnDgoVM'  # Здесь нужно указать токен  бота
-
 bot = telebot.TeleBot(bot_token)
 
 @bot.message_handler(commands=['start'])
